@@ -25,3 +25,6 @@ python3 add_genes.py -g <GMT file> -f <pair-wise correlation matrix in the form 
 3. argparse 
 4. pickle
 5. Optionally: pprint
+
+## Running Multiple Gene Sets Text Files
+This repository contains a bash script call run.sh where given an absolute path directory that contains all the gene set text files will run add_genes.py on all the text files in the given directory. The directory can be changed by reassigning a new path to the file_dir variable in the bash script.
