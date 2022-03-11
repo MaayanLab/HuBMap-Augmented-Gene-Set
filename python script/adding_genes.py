@@ -1,10 +1,10 @@
 '''
 Usage: 
 Option 1: If coexpression pickle object is used as input
-python3 open_feather.py -g <gene set text file> -p <correlation matrix in the form of a pickle object>
+python3 adding_genes.py -g <gene set text file> -p <correlation matrix in the form of a pickle object>
 
 Option 2: If no coexpression pickle object is supplied
-python3 open_feather.py -g <GMT file> -f <pair-wise correlation matrix in the form of a feather object> 
+python3 adding_genes.py -g <GMT file> -f <pair-wise correlation matrix in the form of a feather object> 
 
 Given a gene correlation matrix in the form of an feather object, find the top 100 coexpressed gene per gene and store in a dictionary.
 In the dictionary the key is the gene and value is a list of the top 100 gene with correlation value closest to 1.
