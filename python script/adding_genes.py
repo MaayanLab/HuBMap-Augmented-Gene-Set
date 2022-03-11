@@ -77,7 +77,7 @@ def averageList(correlation_value_list):
 
 def returnTopGenes(gene_marker_list, coexpression_dict):
     # Dictionary where the key is gene and the value is a list of correlation value
-    print(gene_marker_list)
+    #print(gene_marker_list)
     gene_correlation_dict = dict()
     count_gene_marker_not_coexpression_dict = 0
 
@@ -99,7 +99,7 @@ def returnTopGenes(gene_marker_list, coexpression_dict):
         gene_correlation_average_dict[gene] = averageList(correlation_value_list)
 
     #pprint.pprint(gene_correlation_dict)
-    pprint.pprint(gene_correlation_average_dict)
+    #pprint.pprint(gene_correlation_average_dict)
 
     top_100_gene_list = sorted(gene_correlation_average_dict.items(), key=lambda x:-x[1])[:100]
     return top_100_gene_list, count_gene_marker_not_coexpression_dict
