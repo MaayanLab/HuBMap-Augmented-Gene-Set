@@ -9,13 +9,16 @@ find the top 100 average genes that coexpresses with the gene set list. Higher w
 
 This script generates a tsv file where the first column is the cell type and the following columns are the original gene set list concatenated with the top 100 coexpressed genes
 
-Usage: 
-Option 1: If coexpression pickle object is used as input
-python3 open_feather.py -g <gene set text file> -p <correlation matrix in the form of a pickle object>
+## Usage
+- Option 1: If coexpression pickle object is used as input
+```bash
+python3 add_genes.py -g <gene set text file> -p <correlation matrix in the form of a pickle object>
+```
+- Option 2: If no coexpression pickle object is supplied
+```bash
+python3 add_genes.py -g <GMT file> -f <pair-wise correlation matrix in the form of a feather object> 
+```
 
-Option 2: If no coexpression pickle object is supplied
-python3 open_feather.py -g <GMT file> -f <pair-wise correlation matrix in the form of a feather object> 
-  
 ### Dependencies
 1. pyarrow.feather as feather
 2. os 
