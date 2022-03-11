@@ -29,7 +29,7 @@ We augmented a gene set list using a correlation matrix. The gene correlation ma
 ## Usage
 - Clone the repository
 ```bash
-git clone 'https://github.com/beagan-svg/HuBMap-Augmented-Gene-Set-'
+git clone 'https://github.com/beagan-svg/HuBMap-Augmented-Gene-Set'
 ```
 - Navigate to each subdirectory and execute its readme 
 
