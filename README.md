@@ -22,7 +22,7 @@ Table of Contents
 
 
 ## Overview
-We augmented a gene set list using a correlation matrix. The gene correlation matrix was downloaded from [ARCHS4](https://maayanlab.cloud/archs4/download.html). The correlation matrix contain a Pairwise pearson correlation of genes across expression samples. The gene set list was generated from a asct+B converter script found in the [Maayan Respository](https://github.com/MaayanLab/asct-b-converter). 
+We augmented a gene set list using a correlation matrix. The gene correlation matrix was downloaded from [ARCHS4](https://maayanlab.cloud/archs4/download.html). The correlation matrix contain a Pairwise pearson correlation of genes across expression samples. The gene set list was generated from a asct+B converter script found in the [Ma'ayan Respository](https://github.com/MaayanLab/asct-b-converter). 
 
 ![cover](Correlation_Image.png)
 
