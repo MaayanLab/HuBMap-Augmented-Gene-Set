@@ -1,5 +1,3 @@
-# HuBMap-Augmented-Gene-Set
-
 Augmentating a Gene Set list from HuBMap with a Correlation Matrix on ARCHS4
 =================================================
 
