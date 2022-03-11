@@ -14,3 +14,4 @@ This script generates a tsv file where the first column is the cell type and the
 2. os 
 3. argparse 
 4. pickle
+5. Optionally: pprint
