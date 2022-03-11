@@ -18,7 +18,7 @@ import pyarrow.feather as feather
 import os 
 import argparse 
 import pickle
-import pprint
+#import pprint
 #import sys
 
 class CommandLine():
