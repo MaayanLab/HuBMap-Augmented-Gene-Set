@@ -126,6 +126,12 @@ def main():
     if not myCommandLine.args.p:
         read_df = feather.read_feather(myCommandLine.args.f)
         coexpression_dict = buildCoexpressionDict(read_df)
+	# create a binary pickle file 
+	f = open("coexpression_dict.pkl", "wb")
+	# write the python object (dict) to pickle file
+	pickle.dump(coexpression_dict, f)
+	# close file
+	f.close()
     else:
         pickle_dict = open(myCommandLine.args.p, "rb")
         coexpression_dict = pickle.load(pickle_dict)
