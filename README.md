@@ -2,7 +2,7 @@ Augmentating a Gene Set list from HuBMAP with a Correlation Matrix on ARCHS4
 =================================================
 
 ## Motivation
-We have this ASCT + B table (Anatomical Structures and Cell Types plus Biomarkers) from HuBMap that people are manually creating to identify biomarkers for cell type identification for single RNA-seq analysis. The tables are actively updated with new cell types and biomarkers. This scripts in this repository serves to update the ASCT+B GMT files on Enrichr. For each tissue there is a GMT file and has all the cell types within the tissue. We want to augment the gene sets with co-expression and update the files on Enrichr because the gene sets are short. We want to take ARCHS4 human gene correlation matrix and more genes to each small set of biomarkers for each cell type. By doing this with the hope the GMT file will be better at identifying cell types.
+We have this ASCT + B table (Anatomical Structures and Cell Types plus Biomarkers) from HuBMAP that people are manually creating to identify biomarkers for cell type identification for single RNA-seq analysis. The tables are actively updated with new cell types and biomarkers. This scripts in this repository serves to update the ASCT+B GMT files on Enrichr. For each tissue there is a GMT file and has all the cell types within the tissue. We want to augment the gene sets with co-expression and update the files on Enrichr because the gene sets are short. We want to take ARCHS4 human gene correlation matrix and more genes to each small set of biomarkers for each cell type. By doing this with the hope the GMT file will be better at identifying cell types.
 
 Table of Contents 
 -----------------
