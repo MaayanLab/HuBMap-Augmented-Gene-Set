@@ -23,6 +23,15 @@ Contains dictionary variable where the key is the tissue and the value is the GS
 Rscript cor.R <Expression Data Directory>
 ```
 
+- Option 1
+```
+python3 augment_geneset.py -g <GMT file directory> -c <directory of tissue specific pair-wise correlation matrices> 
+```
+
+- Option 2
+```
+python3 augment_geneset.py -g <GMT file directory> -p <correlation matrix in the form of a pickle object>
+```
 
 ### Python Dependencies
 
