@@ -20,10 +20,10 @@ Part 1 (Expanding the gene set list associated with a cell type)
 ------------------------------------------------------------------
 This repository contains a python script that given a gene correlation matrix in the form of an feather object, finds the top 100 coexpressed gene per gene and store in a dictionary. In the dictionary the key is the gene and value is a list of the top 100 gene with correlation value closest to 1.
 
-Then given a gene set text file where the first column is the cell type and the following columns are the gene set list associated with the cell type,
-find the top 100 average genes that coexpresses with the gene set list. Higher weight is given to genes that correlated to multiple genes in the gene set list.
+Then given a gene set (GMT) text file where the first column is the cell type and the following columns are the gene set list associated with the cell type,
+finds the top 100 average genes that coexpresses with the gene set list. Higher weight is given to genes that correlated to multiple genes in the gene set list.
 
-This script generates a tsv file where the first column is the cell type and the following columns are the original gene set list concatenated with the top 100 coexpressed genes.
+This script generates a tsv file where the first column is the cell type and the following columns are the original gene set list concatenated with the top 100 coexpressed genes. Thus expanding the limited gene set list
 
 Part 2 (Extracting Gene Expression Data from ARCHS4 and generating tissue specific correlation matrix)
 --------------------------------------------------------------------------------------------------------
