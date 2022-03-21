@@ -9,13 +9,6 @@ args <- commandArgs(TRUE)
 # args[1] is directory of files to CTF normalize
 directory <- args[1]
 
-print("start")
-#create output dir
-output_dir <- paste0(directory, "_CTF_normalized")
-if(!dir.exists(output_dir)) {
-  dir.create(output_dir)
-}
-
 # List files in dir to normalize
 dir_files <- list.files(directory, full.names = TRUE)
 
