@@ -1,4 +1,4 @@
-## Python Script
+## Scripts
 
 ### What does it do?
 Extract tissue specific expression data from h5 file and filter by RNA-seq samples. 
