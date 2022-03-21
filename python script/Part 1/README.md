@@ -10,7 +10,7 @@ find the top 100 average genes that coexpresses with the gene set list. Higher w
 This script generates a tsv file where the first column is the cell type and the following columns are the original gene set list concatenated with the top 100 coexpressed genes
 
 ## Usage
-- Option 1: If coexpression pickle object is used as input, will increase run time.
+- Option 1: If coexpression pickle object is used as input, will decrease run time.
 ```bash
 python3 add_genes.py -g <gene set text file> -p <correlation matrix in the form of a pickle object>
 ```
