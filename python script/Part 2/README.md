@@ -23,7 +23,7 @@ Rscript cor.R <Expression Data Directory>
 Contains dictionary variable where the key is the tissue and the value is the GSM sample 
 
 ### Python Dependencies
------------------------
+
 1. pandas 
 2. numpy 
 3. h5py 
@@ -32,7 +32,7 @@ Contains dictionary variable where the key is the tissue and the value is the GS
 6. Optionally: pprint
 
 ### R Script Dependencies
-------------------
+
 1. tidyverse
 2. edgeR
 3. qpgraph
