@@ -11,25 +11,25 @@ Add top 100 coexpressed genes to gene set associated cell type.
 - augment_geneset.py
 
 ## Usage
-- expression.py  
+expression.py  
 ```bash
 python3 expression.py
 ```
-- sample.py
+sample.py
 
-Contains dictionary variable where the key is the tissue and the value is the GSM sample.
+- Contains dictionary variable where the key is the tissue and the value is the GSM sample.
 
-- cor.R
+cor.R
 ```bash
 Rscript cor.R <Expression Data Directory>
 ```
 
-- Option 1: If coexpression pickle object is used as input, will decrease run time.
+Option 1: If coexpression pickle object is used as input, will decrease run time.
 ```
 python3 augment_geneset.py -g <GMT file directory> -c <directory of tissue specific pair-wise correlation matrices> 
 ```
 
-- Option 2: If no coexpression pickle object is supplied, build coexpression dictionary and store as pickle object.
+Option 2: If no coexpression pickle object is supplied, build coexpression dictionary and store as pickle object.
 ```
 python3 augment_geneset.py -g <GMT file directory> -p <correlation matrix in the form of a pickle object>
 ```
