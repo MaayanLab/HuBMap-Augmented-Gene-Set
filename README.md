@@ -1,4 +1,4 @@
-Augmentating a Gene Set list from HuBMap with a Correlation Matrix on ARCHS4
+Augmentating a Gene Set list from HuBMAP with a Correlation Matrix on ARCHS4
 =================================================
 
 ## Motivation
