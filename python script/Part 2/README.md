@@ -38,7 +38,7 @@ Contains dictionary variable where the key is the tissue and the value is the GS
 3. qpgraph
 4. DESeq2
 
-## Data
+## Data Download
 H5 file can be found at [ARCHS4 Download](https://maayanlab.cloud/archs4/download.html)
 
 Tissue Specific Gene Expression [Expression Download](https://www.dropbox.com/sh/9f2e55b5raj2sce/AACD_elmL0SWN3iIrHeYuEpua?dl=0)
