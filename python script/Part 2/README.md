@@ -41,7 +41,9 @@ python3 augment_geneset.py -g <GMT file directory> -p <correlation matrix in the
 3. h5py 
 4. re
 5. pickle
-6. Optionally: pprint
+6. os 
+7. argparse 
+8. Optionally: pprint
 
 ### R Script Dependencies
 
