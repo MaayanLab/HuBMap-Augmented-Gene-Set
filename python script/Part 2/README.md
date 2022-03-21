@@ -2,9 +2,11 @@
 
 ### What does it do?
 - expression.py
+
 Extract tissue specific expression data from h5 file and filter by RNA-seq samples. 
 
 - cor.R
+
 Normalized using counts adjusted with TMM factors (CTF) and log transforms using asinh. Finally generate pairwise correlation matrix. 
 
 ## Data
