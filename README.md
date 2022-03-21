@@ -34,8 +34,12 @@ The expression data is normalized using counts adjusted with TMM factors (CTF) a
 ![cover](Image/Correlation_Image.png)
 
 ## Data Download
-We augmented a gene set list using a correlation matrix. The gene correlation matrix was downloaded from [ARCHS4](https://maayanlab.cloud/archs4/download.html). The correlation matrix contain a Pairwise pearson correlation of genes across expression samples. The gene set list was generated from a asct+B converter script found in the [Ma'ayan Respository](https://github.com/MaayanLab/asct-b-converter). 
+Part 1
+--------------------
+We augmented a gene set list using a correlation matrix. The gene correlation matrix was downloaded from [ARCHS4](https://maayanlab.cloud/archs4/download.html). The correlation matrix contain a Pairwise pearson correlation of genes across expression samples. The gene set list was generated from a ASCT+B converter script found in the [Ma'ayan Respository](https://github.com/MaayanLab/asct-b-converter). 
 
+Part 2
+--------------------
 H5 file containing the human expression data from thousands of GSM samples can be found on [ARCHS4](https://maayanlab.cloud/archs4/data.html)
 
 Tissue Specific Gene Expression (Un-normalized) [Expression Matrix Download](https://www.dropbox.com/sh/9f2e55b5raj2sce/AACD_elmL0SWN3iIrHeYuEpua?dl=0)
