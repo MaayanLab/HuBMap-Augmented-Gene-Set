@@ -1,16 +1,14 @@
 ## Python Script
 
 ### What does it do?
+Extract tissue specific expression data from h5 file and filter by RNA-seq samples. 
 - expression.py
 
-Extract tissue specific expression data from h5 file and filter by RNA-seq samples. 
-
+Normalized using counts adjusted with TMM factors (CTF) and log transforms using asinh. Finally generate pairwise correlation matrix. 
 - cor.R
 
-Normalized using counts adjusted with TMM factors (CTF) and log transforms using asinh. Finally generate pairwise correlation matrix. 
-
-- augment_geneset.py
 Add top 100 coexpressed genes to gene set associated cell type.
+- augment_geneset.py
 
 ## Usage
 - expression.py  
