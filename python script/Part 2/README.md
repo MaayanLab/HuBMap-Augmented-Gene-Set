@@ -9,6 +9,9 @@ Extract tissue specific expression data from h5 file and filter by RNA-seq sampl
 
 Normalized using counts adjusted with TMM factors (CTF) and log transforms using asinh. Finally generate pairwise correlation matrix. 
 
+- augment_geneset.py
+Add top 100 coexpressed genes to gene set associated cell type.
+
 ## Usage
 - expression.py  
 ```bash
@@ -16,19 +19,19 @@ python3 expression.py
 ```
 - sample.py
 
-Contains dictionary variable where the key is the tissue and the value is the GSM sample 
+Contains dictionary variable where the key is the tissue and the value is the GSM sample.
 
 - cor.R
 ```bash
 Rscript cor.R <Expression Data Directory>
 ```
 
-- Option 1
+- Option 1: If coexpression pickle object is used as input, will decrease run time.
 ```
 python3 augment_geneset.py -g <GMT file directory> -c <directory of tissue specific pair-wise correlation matrices> 
 ```
 
-- Option 2
+- Option 2: If no coexpression pickle object is supplied, build coexpression dictionary and store as pickle object.
 ```
 python3 augment_geneset.py -g <GMT file directory> -p <correlation matrix in the form of a pickle object>
 ```
