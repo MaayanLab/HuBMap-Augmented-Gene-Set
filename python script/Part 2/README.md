@@ -21,6 +21,9 @@ python3 expression.py
 ```bash
 Rscript cor.R <Expression Data Directory>
 ```
+- sample.py
+
+Contains dictionary variable where the key is the tissue and the value is the GSM sample 
 
 ### Dependencies
 1. pandas 
