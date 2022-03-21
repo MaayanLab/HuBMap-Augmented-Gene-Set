@@ -7,7 +7,7 @@ We have this ASCT + B table (Anatomical Structures and Cell Types plus Biomarker
 Table of Contents 
 -----------------
 * [Overview](#overview)
-* [Data Download](#Data Download)
+* [Data-Download](#Data-Download)
 * [Usage](#usage)
 * [About-HubMap](#About-HubMap)
 * [Authors and history](#authors-and-history)
@@ -34,7 +34,7 @@ The expression data is normalized using counts adjusted with TMM factors (CTF) a
 
 ![cover](Image/Correlation_Image.png)
 
-## Data Download
+## Data-Download
 Part 1
 --------------------
 We augmented a gene set list using a correlation matrix. The gene correlation matrix was downloaded from [ARCHS4](https://maayanlab.cloud/archs4/download.html). The correlation matrix contain a Pairwise pearson correlation of genes across expression samples. The gene set list was generated from a ASCT+B converter script found in the [Ma'ayan Respository](https://github.com/MaayanLab/asct-b-converter). 
