@@ -22,13 +22,19 @@ Rscript cor.R <Expression Data Directory>
 
 Contains dictionary variable where the key is the tissue and the value is the GSM sample 
 
-### Dependencies
+### Python Dependencies
 1. pandas 
 2. numpy 
 3. h5py 
 4. re
 5. pickle
 6. Optionally: pprint
+
+### R Dependencies
+1. tidyverse
+2. edgeR
+3. qpgraph
+4. DESeq2
 
 ## Data
 H5 file can be found at [ARCHS4 Download](https://maayanlab.cloud/archs4/download.html)
