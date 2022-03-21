@@ -1,27 +1,29 @@
 ## Python Script
 
 ### What does it do?
-Given a gene correlation matrix in the form of an feather object, find the top 100 coexpressed gene per gene and store in a dictionary.
-In the dictionary the key is the gene and value is a list of the top 100 gene with correlation value closest to 1.
+- expression.py
+Extract tissue specific expression data from h5 file and filter by RNA-seq samples. 
 
-Then given a gene set text file where the first column is the cell type and the following columns are the gene set list associated with the cell type,
-find the top 100 average genes that coexpresses with the gene set list. Higher weight is given to genes that correlated to multiple genes in the gene set list
+- cor.R
+Normalized using counts adjusted with TMM factors (CTF) and log transforms using asinh. Finally generate pairwise correlation matrix. 
 
-This script generates a tsv file where the first column is the cell type and the following columns are the original gene set list concatenated with the top 100 coexpressed genes
+## Data
+H5 file can be found at [ARCHS4 Download](https://maayanlab.cloud/archs4/download.html)
 
 ## Usage
-- Option 1: If coexpression pickle object is used as input, will increase run time.
+- expression.py  
 ```bash
-python3 add_genes.py -g <gene set text file> -p <correlation matrix in the form of a pickle object>
+python3 expression.py
 ```
-- Option 2: If no coexpression pickle object is supplied
+- cor.R
 ```bash
-python3 add_genes.py -g <GMT file> -f <pair-wise correlation matrix in the form of a feather object> 
+python3 Rscript cor.R <Expression Data Directory>
 ```
 
 ### Dependencies
-1. pyarrow.feather as feather
-2. os 
-3. argparse 
-4. pickle
-5. Optionally: pprint
+1. pandas 
+2. numpy 
+3. h5py 
+4. re
+5. pickle
+6. Optionally: pprint
