@@ -31,7 +31,7 @@ Contains dictionary variable where the key is the tissue and the value is the GS
 5. pickle
 6. Optionally: pprint
 
-### R Dependencies
+### R  Dependencies
 ------------------
 1. tidyverse
 2. edgeR
