@@ -7,6 +7,7 @@ We have this ASCT + B table (Anatomical Structures and Cell Types plus Biomarker
 Table of Contents 
 -----------------
 * [Overview](#overview)
+* [Data Download](#Data Download)
 * [Usage](#usage)
 * [About-HubMap](#About-HubMap)
 * [Authors and history](#authors-and-history)
