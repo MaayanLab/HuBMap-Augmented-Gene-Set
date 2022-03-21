@@ -31,7 +31,7 @@ This repository also contains a python script that will extract the gene express
 The expression data is normalized using counts adjusted with TMM factors (CTF) and then log transformed using asinh. A pairwise correlation matrix is then generated from the tissue specific expression data. Correlation coefficents are calculated using the pearson correlation's. Normalization reccomendations for RNA-seq data can be found [Here](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02568-9). A repeat of part 1 is followed except we will use the newly generated tissue specific correlation matrix as input. 
 
 
-![cover](Correlation_Image.png)
+![cover](Image/Correlation_Image.png)
 
 ## Data
 We augmented a gene set list using a correlation matrix. The gene correlation matrix was downloaded from [ARCHS4](https://maayanlab.cloud/archs4/download.html). The correlation matrix contain a Pairwise pearson correlation of genes across expression samples. The gene set list was generated from a asct+B converter script found in the [Ma'ayan Respository](https://github.com/MaayanLab/asct-b-converter). 
