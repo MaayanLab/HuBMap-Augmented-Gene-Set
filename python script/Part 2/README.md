@@ -9,9 +9,6 @@ Extract tissue specific expression data from h5 file and filter by RNA-seq sampl
 
 Normalized using counts adjusted with TMM factors (CTF) and log transforms using asinh. Finally generate pairwise correlation matrix. 
 
-## Data
-H5 file can be found at [ARCHS4 Download](https://maayanlab.cloud/archs4/download.html)
-
 ## Usage
 - expression.py  
 ```bash
@@ -32,3 +29,6 @@ Contains dictionary variable where the key is the tissue and the value is the GS
 4. re
 5. pickle
 6. Optionally: pprint
+
+## Data
+H5 file can be found at [ARCHS4 Download](https://maayanlab.cloud/archs4/download.html)
