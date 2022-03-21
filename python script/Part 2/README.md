@@ -17,7 +17,7 @@ python3 expression.py
 ```
 - cor.R
 ```bash
-python3 Rscript cor.R <Expression Data Directory>
+Rscript cor.R <Expression Data Directory>
 ```
 
 ### Dependencies
