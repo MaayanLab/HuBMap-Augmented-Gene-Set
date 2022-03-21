@@ -14,13 +14,15 @@ Normalized using counts adjusted with TMM factors (CTF) and log transforms using
 ```bash
 python3 expression.py
 ```
+- sample.py
+
+Contains dictionary variable where the key is the tissue and the value is the GSM sample 
+
 - cor.R
 ```bash
 Rscript cor.R <Expression Data Directory>
 ```
-- sample.py
 
-Contains dictionary variable where the key is the tissue and the value is the GSM sample 
 
 ### Python Dependencies
 
