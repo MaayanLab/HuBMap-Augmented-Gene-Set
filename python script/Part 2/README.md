@@ -58,3 +58,4 @@ Tissue Specific Gene Expression (Un-normalized) [Expression Matrix Download](htt
 Tissue Specfic Gene Correlation Matrix [Correlation Matrix Download](https://www.dropbox.com/sh/lyl9p6iztglnct2/AABr4GYjpB9R3EGpSrV6LjfSa?dl=0)
 
 Coexpression Dictionary in the form of an pickle object [Pickle Download](https://www.dropbox.com/sh/wbctf3x8pfdfw8w/AAC3ckXGkWR6YfvLZhnMELIDa?dl=0)
+- The pickle object download link only contains coexpression genes for the following organs: 'urinary_bladder', 'lymph_node', 'eye', 'prostate', 'thymus', 'kidney', 'large_intestine', 'ureter', 'brain', 'fallopian_tube', 'bone', 'placenta', 'liver', 'heart', 'blood', 'lung', 'uterus', 'pancreas'.
