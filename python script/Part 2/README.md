@@ -41,6 +41,6 @@ Contains dictionary variable where the key is the tissue and the value is the GS
 ## Data Download
 H5 file can be found at [ARCHS4 Download](https://maayanlab.cloud/archs4/download.html)
 
-Tissue Specific Gene Expression (Unormalized) [Expression Matrix Download](https://www.dropbox.com/sh/9f2e55b5raj2sce/AACD_elmL0SWN3iIrHeYuEpua?dl=0)
+Tissue Specific Gene Expression (Un-normalized) [Expression Matrix Download](https://www.dropbox.com/sh/9f2e55b5raj2sce/AACD_elmL0SWN3iIrHeYuEpua?dl=0)
 
 Tissue Specfic Gene Correlation Matrix [Correlation Matrix Download](https://www.dropbox.com/sh/lyl9p6iztglnct2/AABr4GYjpB9R3EGpSrV6LjfSa?dl=0)
