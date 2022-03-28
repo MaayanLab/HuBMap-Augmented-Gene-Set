@@ -26,12 +26,12 @@ Rscript cor.R <Expression Data Directory>
 
 Option 1: If coexpression pickle object is used as input, will decrease run time.
 ```
-python3 augment_geneset.py -g <GMT file directory> -c <directory of tissue specific pair-wise correlation matrices> 
+python3 augment.py -g <GMT file directory> -c <directory of tissue specific pair-wise correlation matrices> 
 ```
 
 Option 2: If no coexpression pickle object is supplied, build coexpression dictionary and store as pickle object.
 ```
-python3 augment_geneset.py -g <GMT file directory> -p <correlation matrix in the form of a pickle object>
+python3 augment.py -g <GMT file directory> -p <correlation matrix in the form of a pickle object>
 ```
 
 ### Python Dependencies
