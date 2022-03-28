@@ -5,7 +5,7 @@ Extract tissue specific expression data from h5 file and filter by RNA-seq sampl
 - expression.py
 
 Normalized using counts adjusted with TMM factors (CTF) and log transforms using asinh. Finally generate pairwise correlation matrix. 
-- cor.R
+- cor.R <absolute or relative out directory>
 
 Add top 100 coexpressed genes to gene set associated cell type.
 - augment_geneset.py
