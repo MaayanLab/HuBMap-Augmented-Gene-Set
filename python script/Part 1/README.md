@@ -31,6 +31,6 @@ This repository contains a bash script call run.sh where given an absolute path 
 
 To combine all augmented tsv files. Go into the directory that contains your augmented tsv files and run...
 ```bash
-cat *tsv > CellMarker_Augmented_2020_table_ARCHS4_Human_Cor.tsv
+cat *tsv > CellMarker_Augmented_2022_table_ARCHS4_Human_Cor.tsv
 ```
 
