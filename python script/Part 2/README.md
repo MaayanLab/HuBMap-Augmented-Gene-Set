@@ -8,7 +8,7 @@ Normalized using counts adjusted with TMM factors (CTF) and log transforms using
 - cor.R <absolute or relative out directory>
 
 Add top 100 coexpressed genes to gene set associated cell type.
-- augment_geneset.py
+- augment.py
 
 ## Usage
 expression.py  
