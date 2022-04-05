@@ -200,9 +200,14 @@ def main():
     # Write out
     print("Writing Output...")
 
+    # Write out
+    print("Writing Output...")
+
     fh = open(output_name, "w")
     for organ, cell_gene_dict in final_dict.items():
         for cell_type, gene_list in cell_gene_dict.items():
+            if len(gene_list) < 4:
+                continue
             fh.write("{}\t".format(cell_type))
             for count, gene in enumerate(gene_list):
                 # Case for first gene
